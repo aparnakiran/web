@@ -1,0 +1,84 @@
+body{
+    background:linear-gradient(black,white);
+    height: 100vh;
+    background-image: url("bgdesert.jpg");
+
+}
+.panel{
+    width: 60%;
+    height: 80%;
+    background:blueviolet;
+    position: absolute;
+    top:0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+.leftPanel{
+    width: 40%;
+    height: 80%;
+    float: left;
+    text-align: center;
+    padding: 80px 0 0 0;
+
+}
+.rightPanel{
+    width: 40%;
+    height: 80%;
+    float: right;
+    text-align: center;
+    padding-top:100px;
+   /* padding: 100px,0,0,0;*/
+  /* padding: 8px 15px;*/
+  
+}
+input{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 4px 5px 6px 7px;
+    width: 80%;
+    border: 1px solid lightcoral;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.2);
+   /* box-shadow: -1px -2px;*/
+
+}
+button{
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    background: red;
+    color: aqua;
+    border:1px dashed #e67e22;
+}
+h1{
+    color: burlywood;
+}
+img{
+    width: 100%;
+}
+@media only-screen and(max-width:600px){
+    body{
+        background: darkorange;
+    } 
+}
+
+.panel{
+    width: 80%;
+}
+.leftPanel{
+    float: none;
+    width: 100%;
+    height: auto;
+}
+.rightPanel{
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.logoImage{
+    width: 40%
+}
+
